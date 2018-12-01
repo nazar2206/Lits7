@@ -12,7 +12,7 @@ public class Application {
              String SayHi = "Hi, my name is ";
              String SayNiceToMeetYou = "Nice to meet you!";
         try (InputStreamReader cin = new InputStreamReader(System.in);
-             FileOutputStream out = new FileOutputStream("/home/nazar/IdeaProjects/Homework7/src/main/resources/outputB")){
+             FileOutputStream out = new FileOutputStream("src/main/resources/outputB")){
             out.write(SayHi.getBytes());
             System.out.println("Write your name: ");
             do{
